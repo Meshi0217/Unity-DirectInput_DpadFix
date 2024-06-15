@@ -190,27 +190,27 @@ public struct FlatJoyState2State : IInputStateTypeInfo {
   [InputControl(name="FRY", layout="Axis", displayName="Y Torque")]                 public UInt16 lFRy;   // Y-axis torque
   [InputControl(name="FRZ", layout="Axis", displayName="Z Torque")]                 public UInt16 lFRz;   // Z-axis torque
 
-  [InputControl(name="dpad0", layout="Dpad",  bit=0, sizeInBits=4, displayName="Dpad0")]
-    [InputControl(name="dpad0/up",    bit=0,  displayName="Up"   )]
-    [InputControl(name="dpad0/down",  bit=1,  displayName="Down" )]
-    [InputControl(name="dpad0/left",  bit=2,  displayName="Left" )]
-    [InputControl(name="dpad0/right", bit=3,  displayName="Right")]
-  [InputControl(name="dpad1", layout="Dpad",  bit=4, sizeInBits=4, displayName="Dpad1")]
-    [InputControl(name="dpad1/up",    bit=4,  displayName="Up"   )]
-    [InputControl(name="dpad1/down",  bit=5,  displayName="Down" )]
-    [InputControl(name="dpad1/left",  bit=6,  displayName="Left" )]
-    [InputControl(name="dpad1/right", bit=7,  displayName="Right")]
-  [InputControl(name="dpad2", layout="Dpad",  bit=8, sizeInBits=4, displayName="Dpad2")]
-    [InputControl(name="dpad2/up",    bit=8,  displayName="Up"   )]
-    [InputControl(name="dpad2/down",  bit=9,  displayName="Down" )]
-    [InputControl(name="dpad2/left",  bit=10, displayName="Left" )]
-    [InputControl(name="dpad2/right", bit=11, displayName="Right")]
-  [InputControl(name="dpad3", layout="Dpad",  bit=12, sizeInBits=4, displayName="Dpad3")]
-    [InputControl(name="dpad3/up",    bit=12, displayName="Up"   )]
-    [InputControl(name="dpad3/down",  bit=13, displayName="Down" )]
-    [InputControl(name="dpad3/left",  bit=14, displayName="Left" )]
-    [InputControl(name="dpad3/right", bit=15, displayName="Right")]
-  public UInt16 rgdwPOV; // Store each DPAD in chunks of 4 bits inside a 16-bit Unsigned integer   
+  //[InputControl(name="dpad0", layout="Dpad",  bit=0, sizeInBits=4, displayName="Dpad0")]
+  //  [InputControl(name="dpad0/up",    bit=0,  displayName="Up"   )]
+  //  [InputControl(name="dpad0/down",  bit=1,  displayName="Down" )]
+  //  [InputControl(name="dpad0/left",  bit=2,  displayName="Left" )]
+  //  [InputControl(name="dpad0/right", bit=3,  displayName="Right")]
+  //[InputControl(name="dpad1", layout="Dpad",  bit=4, sizeInBits=4, displayName="Dpad1")]
+  //  [InputControl(name="dpad1/up",    bit=4,  displayName="Up"   )]
+  //  [InputControl(name="dpad1/down",  bit=5,  displayName="Down" )]
+  //  [InputControl(name="dpad1/left",  bit=6,  displayName="Left" )]
+  //  [InputControl(name="dpad1/right", bit=7,  displayName="Right")]
+  //[InputControl(name="dpad2", layout="Dpad",  bit=8, sizeInBits=4, displayName="Dpad2")]
+  //  [InputControl(name="dpad2/up",    bit=8,  displayName="Up"   )]
+  //  [InputControl(name="dpad2/down",  bit=9,  displayName="Down" )]
+  //  [InputControl(name="dpad2/left",  bit=10, displayName="Left" )]
+  //  [InputControl(name="dpad2/right", bit=11, displayName="Right")]
+  //[InputControl(name="dpad3", layout="Dpad",  bit=12, sizeInBits=4, displayName="Dpad3")]
+  //  [InputControl(name="dpad3/up",    bit=12, displayName="Up"   )]
+  //  [InputControl(name="dpad3/down",  bit=13, displayName="Down" )]
+  //  [InputControl(name="dpad3/left",  bit=14, displayName="Left" )]
+  //  [InputControl(name="dpad3/right", bit=15, displayName="Right")]
+  //public UInt16 rgdwPOV; // Store each DPAD in chunks of 4 bits inside a 16-bit Unsigned integer   
 }
 
 //////////////////////////////////////////////////////////////
